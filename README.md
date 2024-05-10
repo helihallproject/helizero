@@ -1,5 +1,5 @@
 # helizero
-Quickly set up Raspberry Pi Zero - headless
+#Quickly set up Raspberry Pi Zero - headless
 
 
 sudo apt update
