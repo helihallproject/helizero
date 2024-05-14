@@ -18,6 +18,8 @@ sudo pip3 install mysql-connector-python
 pip install pigpio
 sudo systemctl enable pigpiod
 
+mkdir ../Projects
+
 # Git clone the startup scripts
 # Create Project directory
 # Create service to start scripts on boot
