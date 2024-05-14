@@ -12,10 +12,10 @@ sudo rm /usr/lib/python3.11/EXTERNALLY-MANAGED
 sudo apt install python3-pip
 
 # Install mysql connector
-sudo pip3 install mysql-connector-python
+pip3 install mysql-connector-python
 
 # Install pigpio and set up to run daemen at startup
-pip install pigpio
+pip3 install pigpio
 sudo systemctl enable pigpiod
 
 mkdir ../Projects
