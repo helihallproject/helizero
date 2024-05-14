@@ -2,8 +2,8 @@
 
 
 # Standard
-sudo apt update
-sudo apt upgrade
+#sudo apt update
+#sudo apt upgrade
 
 # Remove the error about externally managed system
 sudo rm /usr/lib/python3.11/EXTERNALLY-MANAGED
