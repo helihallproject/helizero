@@ -14,6 +14,10 @@ sudo apt install python3-pip
 # Install mysql connector
 sudo pip3 install mysql-connector-python
 
+# Install pigpio and set up to run daemen at startup
+pip install pigpio
+sudo systemctl enable pigpiod
+
 # Git clone the startup scripts
 # Create Project directory
 # Create service to start scripts on boot
