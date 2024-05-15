@@ -8,6 +8,8 @@
 # Remove the error about externally managed system
 sudo rm /usr/lib/python3.11/EXTERNALLY-MANAGED
 
+sudo apt install git
+
 # Install Pip 3, if missing
 sudo apt install python3-pip
 
