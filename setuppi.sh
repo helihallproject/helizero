@@ -20,6 +20,9 @@ pip3 install mysql-connector-python
 pip3 install pigpio
 sudo systemctl enable pigpiod
 
+#Check pigpiod is running
+pigs t
+
 mkdir ../Projects
 
 # Git clone the startup scripts
